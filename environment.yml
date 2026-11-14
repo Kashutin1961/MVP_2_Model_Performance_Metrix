@@ -1,0 +1,19 @@
+name: sf_mvp1
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip
+
+  - pip:
+      - openai
+      - streamlit
+      - python-dotenv
